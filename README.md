@@ -6,7 +6,7 @@
 
 UMaize是一款基于[Jekyll主题TMaize](https://github.com/TMaize/tmaize-blog)的Jekyll主题。在原主题简洁轻快的基础上添加了更多的可定制性与其他特点。
 
-你可以到[M E S](https://rain.moimo.me)查看主题效果，欢迎添加友链。
+你可以到[M E S](https://rain.moimo.me)查看主题效果（有所改动），欢迎添加友链。
 
 
 
@@ -22,7 +22,7 @@ UMaize是一款基于[Jekyll主题TMaize](https://github.com/TMaize/tmaize-blog)
 
 ## 使用 
 
-请参看using.md。
+请参看[using.md](https://github.com/moi-mo/UMaize/blob/master/using.md)。
 
 
 
