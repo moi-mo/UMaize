@@ -100,7 +100,6 @@ body::-webkit-scrollbar {
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color: #333333;
   visibility: hidden;
   transform: scaleX(0);
   -webkit-transform: scaleX(0);
