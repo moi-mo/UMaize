@@ -6,11 +6,18 @@
 <div class="page page-post">
   <h1 class="title" id="{{ page.title }}">{{ page.title }}</h1>
   {% if page.date %}
-  <div class="subtitle">{{ page.date | date: "%Y-%m-%d" }}</div>
+  <div class="subtitle">{{ page.date | date: "%Y-%m-%d" }}  |  Share to 
+  <a href="https://twitter.com/intent/tweet?text={{page.title}}&url={{page.url | absolute_url }}&via={{site.author}}" 
+  target="_blank" style="color: #999999;">Twitter</a></div>
   {% endif %}
   <div class="post">
     {{ content }}
   </div>
+  {% if site.extAdsense -%}
+  <div class="adsense" style="overflow: hidden;">
+    {% include ext-adsense.html -%}
+  </div>
+  {% endif %}
 </div>
 {% include valine.html -%}
 {% include footer.html -%}
