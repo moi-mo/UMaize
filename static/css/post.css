@@ -24,26 +24,50 @@
   margin: 0;
   width: 100%;
 }
-.page-post .post h1,
-.page-post .post h2 {
+.page-post .post h1{
   font-weight: normal;
-  font-size: 17px;
+  font-size: 20px;
   position: relative;
 }
-.page-post .post h1::before,
-.page-post .post h2::before {
+.page-post .post h2 {
+  font-weight: normal;
+  font-size: 18px;
+  position: relative;
+}
+.page-post .post h1::before{
   content: '#';
   top: 0;
   font-weight: bold;
   padding-right: 6px;
-  color: #333333;
+  color: #2aa198;
+}
+.page-post .post h2::before {
+  content: '##';
+  top: 0;
+  font-weight: bold;
+  padding-right: 6px;
+  color: #2aa198;
 }
 .page-post h3,
 .page-post h4,
 .page-post h5,
 .page-post h6 {
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: normal;
+}
+.page-post .post h3::before {
+  content: '|';
+  top: 0;
   font-weight: bold;
+  padding-right: 6px;
+  color: #2aa198;
+}
+.page-post .post h4::before {
+  content: '*';
+  top: 0;
+  font-weight: bold;
+  padding-right: 6px;
+  color: #2aa198;
 }
 .page-post blockquote {
   border-left: 3px solid #333333;
